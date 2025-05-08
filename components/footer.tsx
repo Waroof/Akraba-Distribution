@@ -7,7 +7,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div>
             <h3 className="text-lg font-semibold mb-4">Akraba Distribution</h3>
-            <p className="text-gray-600">Your reliable local distribution partner since 2005.</p>
+            <p className="text-gray-600">Your reliable local distribution partner since 2015.</p>
           </div>
           <div>
             <h3 className="text-lg font-semibold mb-4">Quick Links</h3>
@@ -18,12 +18,12 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="/about" className="text-gray-600 hover:text-red-700">
+                <Link href="/#about" className="text-gray-600 hover:text-red-700">
                   About Us
                 </Link>
               </li>
               <li>
-                <Link href="/contact" className="text-gray-600 hover:text-red-700">
+                <Link href="/#contact" className="text-gray-600 hover:text-red-700">
                   Contact Us
                 </Link>
               </li>
@@ -37,10 +37,10 @@ export default function Footer() {
           <div>
             <h3 className="text-lg font-semibold mb-4">Contact Information</h3>
             <address className="not-italic text-gray-600">
-              <p>123 Distribution Lane</p>
-              <p>Anytown, MI 48075</p>
-              <p className="mt-2">Phone: (555) 123-4567</p>
-              <p>Email: info@akrabadistribution.com</p>
+              <p>180 Engelwood Dr #E </p>
+              <p>Orion, MI 48359</p>
+              <p className="mt-2">Phone: (248) 372-9485</p>
+              <p>Email: info@akrabanet.com</p>
             </address>
           </div>
         </div>

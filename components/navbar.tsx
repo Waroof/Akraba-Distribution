@@ -2,7 +2,7 @@
 
 import { useState } from "react"
 import Link from "next/link"
-import { Truck } from "lucide-react"
+import Image from "next/image"
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false)
@@ -13,7 +13,7 @@ export default function Navbar() {
         <div className="flex justify-between h-16">
           <div className="flex items-center">
             <Link href="/" className="flex items-center">
-              <Truck className="h-8 w-8 mr-2 text-red-700" />
+              <Image src="/AkrabaLogo.png" alt="Akraba Logo" width={32} height={32} className="h-16 w-16 mr-2" />
               <span className="font-bold text-xl text-gray-800">Akraba Distribution</span>
             </Link>
           </div>
@@ -34,7 +34,7 @@ export default function Navbar() {
             <div className="relative">
               <button
                 onClick={() => setIsOpen(!isOpen)}
-                className="text-gray-800 hover:text-red-700 px-3 py-2 font-medium focus:outline-none"
+                className="bg-red-700 text-white px-4 py-2 rounded-md hover:bg-red-800 font-medium focus:outline-none transition"
               >
                 Become a Customer
               </button>

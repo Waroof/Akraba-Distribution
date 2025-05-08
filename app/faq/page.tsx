@@ -5,26 +5,18 @@ export default function FAQ() {
         Frequently Asked Questions
       </h1>
 
-      <div className="mb-10">
-        <h2 className="text-3xl font-bold mb-4 text-gray-800">To all eCommerce and 3rd party clients,</h2>
-        <p className="text-lg text-gray-700 mb-6">
-          Some of the brands we carry might not be authorized for resale on some platforms such as Amazon and Walmart.
-          Please do your due diligence to obtain letter of authorization(LOAs) from the brand maker before purchases,
-          please note brands may change their policies without notice, therefore we do not provide LOAs, manufacturer
-          invoices or any other documents your platform might require, we will only provide our invoices. All goods are
-          obtained legitimately under properly established distributional routes, all other information is strictly
-          confidential to us.
+      <div className="mb-10 bg-white p-6 border border-gray-300 rounded" >
+        <h2 className="text-4xl font-bold mb-4 text-gray-800">To all eCommerce and 3rd party clients,</h2>
+        <p className="text-2xl text-gray-700 mb-6">
+        Please be advised that some of the brands we distribute may have resale restrictions on platforms such as Amazon, Walmart, and others. It is your responsibility to confirm whether brand authorization is required and to obtain any necessary Letters of Authorization (LOAs) directly from the brand owner prior to making a purchase. Please note that brand policies are subject to change without notice. As a distributor, we do not issue LOAs, manufacturer authorization, or platform-specific documentation. We will provide our company invoice as proof of purchase only. All products we supply are sourced through legitimate and established distribution channels. Further sourcing details and supplier relationships are considered proprietary and will remain confidential.
         </p>
 
         <div className="mb-8">
           <p className="font-medium">Akraba Distribution</p>
-          <p>123 Distribution Lane</p>
-          <p>Anytown, MI 48075</p>
-          <p>T: (555) 123-4567</p>
-          <p>F: (555) 123-4568</p>
+        
           <p>
-            <a href="mailto:info@akrabadistribution.com" className="text-red-700">
-              info@akrabadistribution.com
+            <a href="mailto:info@akrabanet.com" className="text-red-700">
+              info@akrabanet.com
             </a>
           </p>
         </div>
@@ -32,50 +24,65 @@ export default function FAQ() {
 
       <div className="space-y-6">
         <div className="bg-white p-6 border border-gray-300 rounded">
-          <h3 className="text-xl font-semibold mb-2 text-gray-800">What are your minimum order requirements?</h3>
+          <h3 className="text-xl font-semibold mb-2 text-gray-800">Product List Availability?</h3>
           <p className="text-gray-700">
-            For delivery orders, the minimum is $1,000.00. For pickup orders, new customers must place a minimum order
-            of $500.00, while returning customers have a minimum of $250.00.
+          Please note that we do not provide a master product list.
+All items must be browsed and purchased through our online portal.
+
           </p>
         </div>
 
         <div className="bg-white p-6 border border-gray-300 rounded">
-          <h3 className="text-xl font-semibold mb-2 text-gray-800">Do you offer free shipping?</h3>
+          <h3 className="text-xl font-semibold mb-2 text-gray-800">Labeling Policy?</h3>
           <p className="text-gray-700">
-            Yes, we offer free shipping with minimum order requirements that vary by location. Please see our delivery
-            information on the homepage for specific details.
+          We do not label individual boxes for retail or e-commerce packaging.
+
           </p>
         </div>
 
         <div className="bg-white p-6 border border-gray-300 rounded">
-          <h3 className="text-xl font-semibold mb-2 text-gray-800">What is your return policy?</h3>
+          <h3 className="text-xl font-semibold mb-2 text-gray-800">International Shipment?</h3>
           <p className="text-gray-700">
-            All returns are subject to a 15% restocking fee. All claims must be made within 48 hours of receiving the
-            order.
+          We supply exporters but do not ship outside the U.S.
+          Buyers must take possession of the goods within the U.S. and are solely responsible for arranging export logistics and ensuring compliance with all U.S. export regulations.
+            
           </p>
         </div>
 
         <div className="bg-white p-6 border border-gray-300 rounded">
-          <h3 className="text-xl font-semibold mb-2 text-gray-800">How do I place an order?</h3>
+          <h3 className="text-xl font-semibold mb-2 text-gray-800">Lead Time?</h3>
           <p className="text-gray-700">
-            You can place an order by calling our office at (555) 123-4567 during business hours, or by logging into
-            your account on our website if you're an existing customer.
+          Most orders are shipped within 48-72  hours of receiving payment.
           </p>
         </div>
 
         <div className="bg-white p-6 border border-gray-300 rounded">
-          <h3 className="text-xl font-semibold mb-2 text-gray-800">What payment methods do you accept?</h3>
+          <h3 className="text-xl font-semibold mb-2 text-gray-800">Return Policy?</h3>
           <p className="text-gray-700">
-            We accept cash, checks, and all major credit cards. Please note that all credit card payments are subject to
-            a 2% processing fee.
+          If you're not satisfied with your purchase, you may return items within 5 business days of receipt.
+          Returns may be subject to:
           </p>
+          <p>A 15% restocking fee, and
+
+Return shipping costs, where applicable.
+Please note, all returns must be approved by our team in advance.</p>
         </div>
 
         <div className="bg-white p-6 border border-gray-300 rounded">
-          <h3 className="text-xl font-semibold mb-2 text-gray-800">What areas do you serve?</h3>
+          <h3 className="text-xl font-semibold mb-2 text-gray-800">Order Minimum?</h3>
           <p className="text-gray-700">
-            We primarily serve Michigan and surrounding areas, including Lansing, Flint, Port Huron, Toledo, Ann Arbor,
-            Ypsilanti, Saginaw, Grand Rapids, Columbus, and Cleveland.
+          Minimum order requirements depend on your delivery location.
+Customers located within a 45-mile radius of our facility are not subject to a minimum order.
+For all other areas, minimums may apply.
+Once your order is submitted, our sales team will reach out to confirm details and arrange payment.
+Please note that shipping fees may apply.
+          </p>
+        </div>
+        <div className="bg-white p-6 border border-gray-300 rounded">
+          <h3 className="text-xl font-semibold mb-2 text-gray-800">Shipping to Residential Address?</h3>
+          <p className="text-gray-700">
+          In certain cases, we can accommodate residential deliveries.
+Please contact our team for more details.
           </p>
         </div>
       </div>
