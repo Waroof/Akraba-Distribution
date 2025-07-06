@@ -111,7 +111,7 @@ body {
 }
 
 .animate-scroll {
-  animation: scroll 30s linear infinite;
+  animation: scroll 100s linear infinite;
 }
 
 @keyframes fadeIn {

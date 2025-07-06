@@ -43,8 +43,7 @@ All items must be browsed and purchased through our online portal.
         <div className="bg-white p-6 border border-gray-300 rounded">
           <h3 className="text-xl font-semibold mb-2 text-gray-800">International Shipment?</h3>
           <p className="text-gray-700">
-          We supply exporters but do not ship outside the U.S.
-          Buyers must take possession of the goods within the U.S. and are solely responsible for arranging export logistics and ensuring compliance with all U.S. export regulations.
+          We supply both domestic and international buyers, including shipments to the Middle East. Buyers are responsible for handling all import logistics and ensuring compliance with the destination country’s import regulations.
             
           </p>
         </div>

@@ -68,7 +68,7 @@ export default function Home() {
       {/* Banner Image */}
       <div className="w-full h-[400px] relative flex items-center justify-center">
         <img
-          src="/Warehouse1.jpg"
+          src="/Warehouse2.jpg"
           alt="Akraba Distribution Warehouse"
           className="w-full h-full object-cover"
         />
@@ -86,10 +86,10 @@ export default function Home() {
           <div className="flex flex-col md:flex-row items-center justify-between mb-[150px]">
             <div className="md:w-2/3">
               <p className="text-gray-700 mb-4">
-                Akraba Distribution is a small local distribution company serving businesses in Michigan and surrounding areas since 2015. We pride ourselves on reliable service and unbeatable prices.
+              Liquidations, in-store deals, online wholesale, and local distribution — we’ve got it all! Whether you're a small shop or a big operation, Akraba Distribution is your one-stop source for great products at unbeatable prices.
               </p>
               <p className="text-gray-700">
-                Our skilled team is committed to providing timely deliveries and exceptional customer service to clients of all kinds, from small enterprises to large-scale operations.
+              Looking for bulk discounts? Need fast, reliable delivery? Want to grab liquidation deals before they’re gone? We’re here to help!
               </p>
             </div>
             <img
@@ -193,7 +193,7 @@ export default function Home() {
                   <strong>Phone:</strong> ‪(248) 372-9485
                 </p>
                 <p>
-                  <strong>Email:</strong> sales@akrabastore.com
+                  <strong>Email:</strong> taha@akrabastore.com
                 </p>
                 <p>
                   <strong>Business Hours:</strong> Monday-Friday: 9:00 AM - 5:00 PM
@@ -309,7 +309,7 @@ export default function Home() {
         {/* Partners Section */}
         <section className="mb-12">
           <div className="relative overflow-hidden py-6">
-            <div className="brand-slider flex animate-scroll">
+            <div className="brand-slider flex animate-scroll" style={{ width: 'max-content' }}>
               {/* First set of logos */}
               <div className="flex space-x-12 items-center mx-6">
                 <div className="w-32 h-20 bg-white border border-gray-300 rounded flex items-center justify-center">
@@ -326,6 +326,27 @@ export default function Home() {
                 </div>
                 <div className="w-32 h-20 bg-white border border-gray-300 rounded flex items-center justify-center">
                   <img src="/GloryBrand.png" alt="Glory Brand" className="max-w-full max-h-full object-contain" />
+                </div>
+                <div className="w-32 h-20 bg-white border border-gray-300 rounded flex items-center justify-center">
+                  <img src="/Princessa.png" alt="Princessa Brand" className="max-w-full max-h-full object-contain" />
+                </div>
+                <div className="w-32 h-20 bg-white border border-gray-300 rounded flex items-center justify-center">
+                  <img src="/Gear.png" alt="Gear" className="max-w-full max-h-full object-contain" />
+                </div>
+                <div className="w-32 h-20 bg-white border border-gray-300 rounded flex items-center justify-center">
+                  <img src="/Ventev.png" alt="Ventev" className="max-w-full max-h-full object-contain" />
+                </div>
+                <div className="w-32 h-20 bg-white border border-gray-300 rounded flex items-center justify-center">
+                  <img src="/Del-Monte.png" alt="Del-Monte" className="max-w-full max-h-full object-contain" />
+                </div>
+                <div className="w-32 h-20 bg-white border border-gray-300 rounded flex items-center justify-center">
+                  <img src="/Bush.png" alt="Bush" className="max-w-full max-h-full object-contain" />
+                </div>
+                <div className="w-32 h-20 bg-white border border-gray-300 rounded flex items-center justify-center">
+                  <img src="/Lifeproof.png" alt="Lifeproof" className="max-w-full max-h-full object-contain" />
+                </div>
+                <div className="w-32 h-20 bg-white border border-gray-300 rounded flex items-center justify-center">
+                  <img src="/HawaiianPunch.png" alt="Hawaiian Punch" className="max-w-full max-h-full object-contain" />
                 </div>
               </div>
               {/* Duplicate set for infinite scroll effect */}
@@ -344,6 +365,27 @@ export default function Home() {
                 </div>
                 <div className="w-32 h-20 bg-white border border-gray-300 rounded flex items-center justify-center">
                   <img src="/GloryBrand.png" alt="Glory Brand" className="max-w-full max-h-full object-contain" />
+                </div>
+                <div className="w-32 h-20 bg-white border border-gray-300 rounded flex items-center justify-center">
+                  <img src="/Princessa.png" alt="Princessa Brand" className="max-w-full max-h-full object-contain" />
+                </div>
+                <div className="w-32 h-20 bg-white border border-gray-300 rounded flex items-center justify-center">
+                  <img src="/Gear.png" alt="Gear" className="max-w-full max-h-full object-contain" />
+                </div>
+                <div className="w-32 h-20 bg-white border border-gray-300 rounded flex items-center justify-center">
+                  <img src="/Ventev.png" alt="Ventev" className="max-w-full max-h-full object-contain" />
+                </div>
+                <div className="w-32 h-20 bg-white border border-gray-300 rounded flex items-center justify-center">
+                  <img src="/Del-Monte.png" alt="Del-Monte" className="max-w-full max-h-full object-contain" />
+                </div>
+                <div className="w-32 h-20 bg-white border border-gray-300 rounded flex items-center justify-center">
+                  <img src="/Bush.png" alt="Bush" className="max-w-full max-h-full object-contain" />
+                </div>
+                <div className="w-32 h-20 bg-white border border-gray-300 rounded flex items-center justify-center">
+                  <img src="/Lifeproof.png" alt="Lifeproof" className="max-w-full max-h-full object-contain" />
+                </div>
+                <div className="w-32 h-20 bg-white border border-gray-300 rounded flex items-center justify-center">
+                  <img src="/HawaiianPunch.png" alt="Hawaiian Punch" className="max-w-full max-h-full object-contain" />
                 </div>
               </div>
             </div>

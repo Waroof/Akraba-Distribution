@@ -14,7 +14,7 @@ export default function Navbar() {
           <div className="flex items-center">
             <Link href="/" className="flex items-center">
               <Image src="/AkrabaLogo.png" alt="Akraba Logo" width={32} height={32} className="h-16 w-16 mr-2" />
-              <span className="font-bold text-xl text-gray-800">Akraba Distribution</span>
+              <span className="font-bold text-xl text-gray-800">Akraba Distribution  <span className="text-gray-500">+ Liquidation</span></span>
             </Link>
           </div>
 
