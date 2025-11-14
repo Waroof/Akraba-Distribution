@@ -170,9 +170,7 @@ export default function Home() {
                 Have questions about our products or services? Our team is ready to assist you.
               </p>
               <div className="space-y-2 text-gray-700">
-                <p>
-                  <strong>Address:</strong> 180 Engelwood Dr #E, Orion, MI 48359
-                </p>
+             
              
                 <p>
                   <strong>Phone:</strong> ‪(248) 372-9485
@@ -186,14 +184,12 @@ export default function Home() {
                 <p>
                   <strong>-------------------------------------------------------------</strong> 
                 </p>
-                <p>
-                  <strong>Store Address:</strong> 3222 Caniff St Hamtramck, MI 4821
-                </p>
+            
                 <p>
                   <strong>Phone:</strong> ‪(248) 372-9485
                 </p>
                 <p>
-                  <strong>Email:</strong> taha@akrabastore.com
+                  <strong>Email:</strong> info@akrabastore.com
                 </p>
                 <p>
                   <strong>Business Hours:</strong> Monday-Friday: 9:00 AM - 5:00 PM
@@ -322,7 +318,7 @@ export default function Home() {
                   <img src="/RedhotBrand.png" alt="Red Hot Brand" className="max-w-full max-h-full object-contain" />
                 </div>
                 <div className="w-32 h-20 bg-white border border-gray-300 rounded flex items-center justify-center">
-                  <img src="/SpiceBrand.png" alt="Spice Brand" className="max-w-full max-h-full object-contain" />
+                  <img src="/SlapMama.png" alt="Spice Brand" className="max-w-full max-h-full object-contain" />
                 </div>
                 <div className="w-32 h-20 bg-white border border-gray-300 rounded flex items-center justify-center">
                   <img src="/GloryBrand.png" alt="Glory Brand" className="max-w-full max-h-full object-contain" />
@@ -361,7 +357,7 @@ export default function Home() {
                   <img src="/RedhotBrand.png" alt="Red Hot Brand" className="max-w-full max-h-full object-contain" />
                 </div>
                 <div className="w-32 h-20 bg-white border border-gray-300 rounded flex items-center justify-center">
-                  <img src="/SpiceBrand.png" alt="Spice Brand" className="max-w-full max-h-full object-contain" />
+                  <img src="/SlapMama.png" alt="Spice Brand" className="max-w-full max-h-full object-contain" />
                 </div>
                 <div className="w-32 h-20 bg-white border border-gray-300 rounded flex items-center justify-center">
                   <img src="/GloryBrand.png" alt="Glory Brand" className="max-w-full max-h-full object-contain" />

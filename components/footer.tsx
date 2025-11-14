@@ -37,8 +37,7 @@ export default function Footer() {
           <div>
             <h3 className="text-lg font-semibold mb-4">Contact Information</h3>
             <address className="not-italic text-gray-600">
-              <p>180 Engelwood Dr #E </p>
-              <p>Orion, MI 48359</p>
+
               <p className="mt-2">Phone: (248) 372-9485</p>
               <p>Email: info@akrabanet.com</p>
             </address>
