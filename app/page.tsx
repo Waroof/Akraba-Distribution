@@ -86,7 +86,7 @@ export default function Home() {
           <div className="flex flex-col md:flex-row items-center justify-between mb-[150px]">
             <div className="md:w-2/3">
               <p className="text-gray-700 mb-4">
-              Liquidations, in-store deals, online wholesale, and local distribution — we’ve got it all! Whether you're a small shop or a big operation, Akraba Distribution is your one-stop source for great products at unbeatable prices.
+              Liquidations, in-store deals, wholesale, and local distribution — we’ve got it all! Whether you're a small shop or a big operation, Akraba Distribution is your one-stop source for great products at unbeatable prices.
               </p>
               <p className="text-gray-700">
               Looking for bulk discounts? Need fast, reliable delivery? Want to grab liquidation deals before they’re gone? We’re here to help!
